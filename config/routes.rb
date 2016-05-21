@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'third_page', to: 'pages#third_page'
 
+  resources :articles
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
